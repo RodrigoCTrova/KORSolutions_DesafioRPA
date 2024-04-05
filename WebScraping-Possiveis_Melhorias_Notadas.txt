@@ -1,0 +1,4 @@
+- Validação para garantir separação de todas as quebras de linha no JSON
+- Validação para eliminar tags vindas junto com alguns subtítulos
+- Tratativa para eliminar conteúdo replicado por elementos similares
+- Tratativa para gantir captura de conteúdos hiercarquicamente organizados em tópicos abaixo de subtítulos (o exemplo também não pegava)

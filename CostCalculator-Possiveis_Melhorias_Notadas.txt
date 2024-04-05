@@ -1,0 +1,18 @@
+- Inserção dos valores no campo sem usar pyautogui, usando funções diretas do selenium como:
+
+    #Campo: Quantidade de memória
+    NumSolicita = driver.find_elements(By.CLASS_NAME, 'awsui_input_2rhyz_qevde_103')[4]
+    NumSolicita.clear()
+    NumSolicita.send_keys(valor_memoria)
+    time.sleep(2)
+
+   Método funciona mas não foi usado pois o checkbox da "Função do Lambda - Sem nível gratuito" altera o comportamento do robô e faz o mesmo não reconhecer os elementos por Class, XPath e CSS selectors (os testados)
+
+- Como os IDs e XPaths da página são dinâmicos, tratativa para tentar não reconhecer elementos por indexação de class, mas sim com XPtah dinâmico com coringa, exemplo: 
+
+    xpath = '//*[matches(@id, "formField104-\d+")]'
+    NumSolicita = driver.find_element(By.XPATH, xpath)
+
+- Retirar todos os waits de tempo fixo e colocar try/catches com validação de preenhcimento para deixar o tempo de processamento mais dinâmico
+
+

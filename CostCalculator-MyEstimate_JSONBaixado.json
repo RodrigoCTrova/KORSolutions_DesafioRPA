@@ -1,0 +1,35 @@
+{
+	"Nome": "My Estimate",
+	"Custo total": {
+		"mensal": "0.77",
+		"Pagamento adiantado": "0.00",
+		"12 meses": "9.24"
+	},
+	"Metadados": {
+		"Moeda": "USD",
+		"Localidade": "pt_BR",
+		"Criado em": "04/04/2024",
+		"Isenção de responsabilidade legal": "A Calculadora de Preços da AWS fornece apenas uma estimativa de suas taxas da AWS e não inclui nenhuma taxa aplicável. Suas taxas reais dependem de vários fatores, inclusive de seu uso real dos serviços da AWS.",
+		"Compartilhar URL": "https://calculator.aws/#/estimate?id=46a648f882860351b368c016fcce255febe7180f"
+	},
+	"Grupos": {
+		"Serviços": [
+			{
+				"Nome do serviço": "AWS Lambda",
+				"Região": "Leste dos EUA (N. da Virgínia)",
+				"Status": "",
+				"Custo do serviço": {
+					"mensal": "0.77",
+					"Pagamento adiantado": "0.00",
+					"12 meses": "9.24"
+				},
+				"Propriedades": {
+					"Arquitetura": "x86",
+					"Quantidade de armazenamento temporário alocada": "512 MB",
+					"Modo de invocação": "Em buffer",
+					"Número de solicitações": "1000 por dia"
+				}
+			}
+		]
+	}
+}
